@@ -21,7 +21,7 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1rem;
-    background: var(--BGcolor1) url("img\78786.svg") no-repeat fixed center;
+    background: var(--BGcolor1) url("img/78786.svg") no-repeat fixed center;
 }
 
 h1,h2,h3 {
@@ -328,7 +328,7 @@ a>svg:focus, a>svg:hover{
 
 @keyframes wind {
     from {
-      transform: matrix(0.30,0,0,0.30,959,135);
+      transform: matrix(0.30,0,0,0.30,958,135);
     }
     to {
       transform: matrix(0.30,0,0,0.30,-179,135);
