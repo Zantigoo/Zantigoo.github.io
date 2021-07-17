@@ -7,7 +7,7 @@
     <title>Contact information</title>
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     
 </head>
 <body>
@@ -16,21 +16,30 @@
         <nav class="nav-bar">
             <ul role="menubar" class="nav-box">
                 <li role="presentation">
-                    <a href="index.html" role="menuitem">Home</a>
+                    <a href="index.html" role="menuitem" class="link-transition">Home</a>
                 </li>
                 <li role="presentation">
-                    <a href="about.html" role="menuitem">About Me</a>
+                    <a href="about.html" role="menuitem" class="link-transition">About Me</a>
                 </li>
                 <li role="presentation">
-                    <a href="contact.html" role="menuitem" class="current_page">Contact</a>
+                    <a href="contact.html" role="menuitem" class="link-transition current_page">Contact</a>
                 </li>
                 <li role="presentation">
-                    <a href="work.html" role="menuitem">Work</a>
+                    <a href="work.html" role="menuitem" class="link-transition">Work</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main class="contact">
+
+        <div class="contact-card">
+            <p>Send me some mail:</p>
+                <a class="contact-link link-transition" role="email" href="mailto:mistermathewbrookes@gmail.com">mistermathewbrookes@gmail.com</a>
+            <p>Give me a call:</p>
+                <a class="contact-link link-transition" role="telephone" href="tel:+9545517282">954-551-7282</a>
+            <p>Check out my work:</p>
+                <a class="contact-link link-transition" href="#">Projects</a>
+        </div>
 
         <div class="contact-form">
             <h1>Leave me a note</h1>
@@ -45,14 +54,6 @@
             </form>
         </div>
 
-        <div class="contact-card">
-            <p>Send me some mail:</p>
-                <a role="email" href="mailto:mistermathewbrookes@gmail.com">mistermathewbrookes@gmail.com</a>
-            <p>Give me a call:</p>
-                <a role="telephone" href="tel:+9545517282">954-551-7282</a>
-            <p>Check out my work:</p>
-                <a href="#">Projects</a>
-        </div>
     </main>
     <footer class="index-footer">
         <p>Check out my pages</p>
