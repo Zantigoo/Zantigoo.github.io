@@ -134,7 +134,7 @@ a {
     padding-bottom: 5px;
 }
 
-.current_page {
+.current-page {
     border-bottom: 3px solid #debce6;
     padding-bottom: 5px;
 }
@@ -192,20 +192,21 @@ td {
     padding: 10px;
 }
 
-.grid_square {
+.grid-square {
     padding: 12px;
     border: solid 2px #c19aca
 }
 
-.grid_square:last-child{
+.grid-square:last-child{
+    -ms-grid-row: 3;
     grid-row: 3;
-    grid-column: 3;
     -ms-grid-column: 3;
+    grid-column: 3;
     grid-column-start: 3;
     -ms-grid-column-span: 0;
     grid-column-end: 3;
     -ms-grid-row: 1;
-    grid-row-start: 1;
+        grid-row-start: 1;
     -ms-grid-row-span: 2;
     grid-row-end: 3;
 }
@@ -255,6 +256,7 @@ textarea {
     background-color: transparent;
     font-family: sans-serif;
     padding: 6px;
+    color: #d8ddefff;
 }
 
 .contact-card {
@@ -510,12 +512,12 @@ a>svg:hover{
         justify-items: center;
     }
 
-    .grid_square:last-child {
+    .grid-square:last-child {
         grid-column: auto / auto;
         grid-row: auto / auto;
     }
 
-    .grid_square {
+    .grid-square {
         padding: 10px;
         border: solid 2px #c19aca;
         max-width: 450px;
@@ -530,7 +532,7 @@ a>svg:hover{
         margin-right: 5px;
     }
 
-    .current_page {
+    .current-page {
         border-right: 3px solid #debce6;
         border-bottom: transparent;
         padding-right: 2px;

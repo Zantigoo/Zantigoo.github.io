@@ -114,7 +114,7 @@ a {
     padding-bottom: 5px;
 }
 
-.current_page {
+.current-page {
     border-bottom: 3px solid var(--color4);
     padding-bottom: 5px;
 }
@@ -170,12 +170,12 @@ td {
     padding: 10px;
 }
 
-.grid_square {
+.grid-square {
     padding: 12px;
     border: solid 2px var(--color3)
 }
 
-.grid_square:last-child{
+.grid-square:last-child{
     grid-row: 3;
     grid-column: 3;
     grid-column-start: 3;
@@ -229,6 +229,7 @@ textarea {
     background-color: transparent;
     font-family: sans-serif;
     padding: 6px;
+    color: var(--color5);
 }
 
 .contact-card {
@@ -385,12 +386,12 @@ a>svg:focus, a>svg:hover{
         justify-items: center;
     }
 
-    .grid_square:last-child {
+    .grid-square:last-child {
         grid-column: auto / auto;
         grid-row: auto / auto;
     }
 
-    .grid_square {
+    .grid-square {
         padding: 10px;
         border: solid 2px var(--color3);
         max-width: 450px;
@@ -405,7 +406,7 @@ a>svg:focus, a>svg:hover{
         margin-right: 5px;
     }
 
-    .current_page {
+    .current-page {
         border-right: 3px solid var(--color4);
         border-bottom: transparent;
         padding-right: 2px;
